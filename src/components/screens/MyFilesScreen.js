@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Text, Image, View, StyleSheet, ScrollView, Button, SafeAreaView, AsyncStorage, Alert } from 'react-native'
+import { Text, Image, View, StyleSheet, ScrollView, AsyncStorage, Button, SafeAreaView, Alert } from 'react-native'
 import { getAllFiles } from '../../utils/getAllFiles'
 import firebase from '../../utils/firebase'
 import { getNetInfo } from '../../utils/netInfo'

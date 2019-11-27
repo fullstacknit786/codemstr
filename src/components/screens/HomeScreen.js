@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, AsyncStorage, Button, View, Image, Alert, TouchableOpacity } from 'react-native'
-import styled from 'styled-components'
+import { StyleSheet, Text, Button, View, Image, Alert, TouchableOpacity, AsyncStorage } from 'react-native'
+
 import * as ImagePicker from 'expo-image-picker'
 import * as Permissions from 'expo-permissions'
 

@@ -5,9 +5,21 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "test": "jest --watch --coverage=false"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.test.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/babel.config.js",
+      "!**/jest.setup.js"
+    ]
   },
   "dependencies": {
+    "@react-native-community/async-storage": "^1.6.3",
     "@react-native-community/netinfo": "^4.6.1",
     "expo": "^35.0.0",
     "expo-file-system": "^7.0.0",
@@ -28,7 +40,13 @@
     "styled-components": "^4.4.1"
   },
   "devDependencies": {
-    "babel-preset-expo": "^7.1.0"
+    "@types/jest": "^24.0.23",
+    "babel-jest": "^24.9.0",
+    "babel-preset-expo": "^7.1.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "jest-expo": "^35.0.0",
+    "react-test-renderer": "16.8.3"
   },
   "private": true
 }
