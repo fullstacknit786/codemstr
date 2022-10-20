@@ -33,7 +33,7 @@
     "react-native-gesture-handler": "^1.5.1",
     "react-native-image-view": "^2.1.8",
     "react-native-progress": "^4.0.2",
-    "react-native-reanimated": "^1.4.0",
+    "react-native-reanimated": "^2.10.0",
     "react-native-tab-view": "^2.11.0",
     "react-native-web": "^0.11.7",
     "react-progressbar": "^15.4.1",
